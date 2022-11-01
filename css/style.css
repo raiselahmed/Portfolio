@@ -3,7 +3,10 @@ a{
     text-decoration: none;
 }
 #home-page{
-    background: #535da1;
+   background-image: url(https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-bottom: 50px;
 }
 .navbar-barnd{
     text-decoration: none;
@@ -43,7 +46,7 @@ nav i{
 }    
 #bnner{
     padding-top: 100px;
-    height: 80vh;
+   
   
 }
 #bnner .hero{
@@ -95,3 +98,8 @@ nav i{
         align-self: center;
     }
 }
+/* 
+.gjhh svg{
+    background: #14b789;
+    
+} */
