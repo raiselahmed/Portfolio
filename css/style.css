@@ -119,3 +119,9 @@ nav i{
         align-self: center;
     }
 }
+
+/* about */
+
+#about .pic img{
+    border-radius: 20px;
+}
