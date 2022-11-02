@@ -122,6 +122,11 @@ nav i{
 
 /* about */
 
+#about .card .hero{
+    color: #ddd;
+    font-weight: 600;
+    font-size: 48px;
+}
 #about .card .pic img{
     border-radius: 20px;
 }
