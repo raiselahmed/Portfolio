@@ -122,6 +122,22 @@ nav i{
 
 /* about */
 
-#about .pic img{
+#about .card .pic img{
     border-radius: 20px;
+}
+#about .avter-img{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
+
+#about .titlw h3{
+    font-size: 34px;
+    font-weight: 700;
+    color: black;
+}
+#about .titlw p{
+    color: #717275;
+    font-size: 18px;
 }
