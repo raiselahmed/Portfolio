@@ -210,3 +210,100 @@ nav i{
 #infrmtion .tr{
     border-bottom: none;
 }
+
+
+/* hver img */
+
+#hver-img .hvr-pc-1{
+    display: block;
+    max-width: 100px;
+    margin: auto;
+    transition: all ease 0.2s;
+}
+#hver-img .hvr-pc-1 img{
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    display: block;
+    transition: all ease 0.2s;
+}
+
+#hver-img .hvr-pc-2 img{
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    display: block;
+    transition: all ease 0.2s;
+}
+#hver-img .hvr-pc-1 img:hover{
+    transform: scale(1.5);
+}
+
+#hver-img .hvr-pc-2{
+    display: block;
+    max-width: 100px;
+    margin: auto;
+    transition: all ease 0.2s;
+}
+
+#hver-img .hvr-pc-2 img:hover{
+    transform: scale(1.5);
+}
+
+#hver-img .hvr-pc-3{
+    display: block;
+    max-width: 100px;
+    margin: auto;
+    transition: all ease 0.2s;
+}
+
+#hver-img .hvr-pc-3 img{
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    display: block;
+    transition: all ease 0.2s;
+}
+#hver-img .hvr-pc-3 img:hover{
+    transform: scale(1.5);
+}
+
+
+#hver-img .hvr-pc-4{
+    display: block;
+    max-width: 100px;
+    margin: auto;
+    transition: all ease 0.2s;
+}
+
+#hver-img .hvr-pc-4 img{
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    display: block;
+    transition: all ease 0.2s;
+}
+#hver-img .hvr-pc-4 img:hover{
+    transform: scale(1.5);
+}
+
+
+
+
+#hver-img .hvr-pc-6{
+    display: block;
+    max-width: 100px;
+    margin: auto;
+    transition: all ease 0.2s;
+}
+
+#hver-img .hvr-pc-6 img{
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    display: block;
+    transition: all ease 0.2s;
+}
+#hver-img .hvr-pc-6 img:hover{
+    transform: scale(1.5);
+}
