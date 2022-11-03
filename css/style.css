@@ -324,6 +324,32 @@ nav i{
 
 
 /* srvc-card */
+
+#srv-card .card{
+    position: relative;
+    overflow: hidden;
+    transition:  0.5s;
+    border: 2px solid #717275;
+}
+
+#srv-card .card:hover{
+   border: 2px solid #14b789;
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+#srv-card .card:hover .services-icon-wrap{
+   background: #14b789;
+   
+ }
+
+ 
+#srv-card .card:hover .services-icon-wrap i{
+    color: #fff;
+    
+  }
+
+
 #srv-card .srv-prce{
 
     position: relative;
@@ -335,8 +361,6 @@ nav i{
     color: #fff;
     background: #14b789;
     border-radius: 20px;
-    position: relative;
-    overflow: hidden;
     padding: 6px 26px;
     transition: all ease 0.5s;
     display: block;
@@ -377,26 +401,18 @@ nav i{
 #srv-card .card-body{
     font-size: 18px;
     color: #717275;
-    position: relative;
-    overflow: hidden;
 }
-/* 
-#srv-card .srv-icon{
+#srv-card .card h3{
+    color: #000;
+    font-weight: bold;
+}
+.services-icon-wrap{
+    transform: rotate(-35deg) translateY(55px);
     border: 1px solid #717275;
     border-radius: 20px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 50%;
-    height: 55%;
-    transform: rotate(-35deg) translateY(55px);
     transition: all ease 0.5s;
 }
-
-#srv .srv-icon i{
+.services-icon-wrap i{
     font-size: 90px;
-} */
-
-#srv i{
-    font-size: 90px;
+    color: #000;
 }
