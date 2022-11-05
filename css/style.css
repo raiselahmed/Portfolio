@@ -416,3 +416,18 @@ nav i{
     font-size: 90px;
     color: #000;
 }
+
+
+/* project */
+
+#our-project .avter-img{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
+#our-project h2{
+    font-weight: bold;
+    color: #fff;
+    font-size: 58px;
+}
