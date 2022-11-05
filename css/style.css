@@ -431,3 +431,47 @@ nav i{
     color: #fff;
     font-size: 58px;
 }
+
+/* rotate card */
+
+.rotate-card .card{
+    background: #f9f9f9;
+    border-radius: 20px;
+    border: none;
+    overflow: hidden;
+    transition: all ease 0.5s;
+    border: 1px solid #f9f9f9;
+}
+
+.rotate-card .card:hover{
+  border: 1px solid #14b789;
+}
+
+.rotate-card .card:hover img{
+    transform: rotate(0) translateY(0);
+  }
+.rotate-card .card h6{
+    font-size: 12px;
+    color: #14b789;
+}
+
+.rotate-card .card h5{
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+}
+.rotate-card .card img{
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    transform: rotate(10deg) translateY(80px);
+    transition: all ease 0.5s;
+}
+
+.rotate-card .card img{
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    transform: rotate(10deg) translateY(80px);
+    transition: all ease 0.5s;
+}
