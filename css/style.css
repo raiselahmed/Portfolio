@@ -8,6 +8,13 @@ a{
    background-size: cover;
    padding-bottom: 50px;
 }
+
+.menubg{
+    background: rgb(5, 100, 124) !important;
+}
+a.nav-link {
+    color: #fff;
+}
 .navbar-barnd{
     text-decoration: none;
     color: #fff;
@@ -440,11 +447,11 @@ nav i{
     border: none;
     overflow: hidden;
     transition: all ease 0.5s;
-    border: 1px solid #f9f9f9;
+    border: 2px solid #f9f9f9;
 }
 
 .rotate-card .card:hover{
-  border: 1px solid #14b789;
+  border: 2px solid #14b789;
 }
 
 .rotate-card .card:hover img{
@@ -475,3 +482,96 @@ nav i{
     transform: rotate(10deg) translateY(80px);
     transition: all ease 0.5s;
 }
+
+/* contact section */
+
+#contact-sction{
+    background: #fff7f6;
+}
+#contact-sction .img-runded{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
+#contact-sction h2{
+    font-weight: bold;
+    color: #fff;
+    font-size: 58px;
+}
+#contact-sction #about-field{
+    background: #fff;
+
+}
+#contact-sction #about-sction{
+    background: #fff;
+}
+#contact-sction #menu .menubar li a{
+    border: 1px solid #e9eaeb;
+    border-radius: 20px;
+    color: #717275;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 6px 14px;
+    min-width: 70px;
+}
+
+#contact-sction  #menu .menubar li a:hover{
+    background: #14B789;
+    border-color: transparent;
+    color: #ffffff;
+}
+
+#contact-sction .link-icon li a{
+    border: 1px solid #e9eaeb;
+    border-radius: 50%;
+    font-size: 14px;
+    color: #000;
+    display: inline-block;
+    vertical-align: top;
+    margin: 2px 2px 5px 2px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#contact-sction .link-icon li a:hover{
+    background: #14B789;
+    border-color: transparent;
+    color: #ffffff;
+}
+
+#contact-sction p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #717275;
+}
+#contact-sction #about-sction p a{
+    font-weight: 400;
+    font-size: 18px;
+    color: #717275;
+    transition: all .3s;
+}
+
+#contact-sction #about-sction p a:hover{
+    color: #14B789;
+}
+
+#contact-sction #about-sction p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #717275;
+}
+
+@media only screen and (max-width: 768px) {
+   
+    div#about-sction {
+        padding-left: 3rem;
+    }
+} 
